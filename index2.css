@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Hacked";
+    src: url(./fonts/Hacked.ttf);
+}
+
+@font-face {
+    font-family: "Dean";
+    src: url(./fonts/Dean.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/header1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    margin: 0 auto;
+    width: 50vh;
+    height: 80vh;
+    text-align: center;
+    display: block;
+}
+
+div {
+    margin-top: 10vh;
+    width: 50vh;
+    height: 80vh;
+    border: 1px #F2FEFE groove;
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+div img {
+    padding-top: 5vh;
+    width: 50%;
+    height: 40%;
+}
+
+form {
+    margin: 5vh 0vh 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #F2FEFE;
+    text-align: center;
+    font-family: "Hacked";
+}
+
+input {
+    margin-top: 5px;
+    width: 80%;
+    height: 15%;
+    padding: 10px 30px 10px 15px;
+    border-radius: 5px;
+    font-family: "Hacked";
+    font-size: 0.9em;
+    font-weight: lighter;
+    background-color: #F2FEFE;
+    border: #F2FEFE 1px groove;
+}
+
+button {
+    width: 50%;
+    height: 15%;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #02020200 1px groove;
+    font-family: "Hacked";
+    font-size: 1.2em;
+    text-shadow: 3px 0px 2px #FF0065, -2px 0px 1px #0FFBF9;
+    background-color: #02020200;
+    color: #F2FEFE;
+    cursor: pointer;
+    transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+button:hover {
+    border: #F2FEFE 1px groove;
+    background-color: #020202;
+}
+
+a {
+    font-size: 0.9em;
+    color: #F2FEFE;
+    text-shadow: 3px 0px 2px #FF0065, -2px 0px 1px #0FFBF9;
+    font-family: "Dean";
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 2px;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
